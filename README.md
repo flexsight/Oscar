@@ -48,7 +48,7 @@ entities ```Step```.
 * The second row must contain the type of the attribute, the type of the first column containing the ```id``` must
   be of type ```None```, while the relationship attributes must be of type ```Relationship```
 
-# Instructions #
+## Instructions ##
 To run the container execute the command
 ```
 docker run --ipc=host  -it  phm14/oscar
