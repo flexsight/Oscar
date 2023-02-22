@@ -68,7 +68,8 @@ Make sure that in the file ```config.yaml``` inside the folder ```src/oscar_core
 ```
 nano src/oscar_core/config.yml
 ```
-and change accordingly ```entities_address: http://IP_ADDRESS:PORT_NUMBER/v2/entities/```
+and change accordingly ```entities_address: http://IP_ADDRESS:PORT_NUMBER/v2/entities/```.
+In this same file you can change the robot ip address.
 
 Inside the container run the following:
 ```
