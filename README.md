@@ -14,7 +14,8 @@ This project is part of [DIH^2](http://www.dih-squared.eu/). For more informatio
 -   [Background](#background)
 -   [Requirements](#requirements)
 -   [Instructions](#instructions)
--   [Usage](#usage)
+-   [Testing](#testing)
+-   [Notes](#notes)
 -   [License](#license)
 
 ## Background
@@ -83,12 +84,30 @@ python parser_to_fiware.py
 ```
 the script file must be on the same folder of config.yml file to work
 
+## Testing ##
+Inside the container run the following:
+```
+source install/setup.bash
+ros2 launch parser parser_launch.py
+```
+To check if services are running launch another session from the same container:
+```
+docker exec -it <container_id> bash
+```
+inside the new session source ros:`
+```
+source install/setup.bash
+```
+To visualize data launch the command:
+```
+ros2 run parser ficlient TYPE ID
+```
+where ```TYPE``` can be one of the following values ```component```, ```step```, ```macrostep```, ```usecase``` 
+depending on the entity and ```ID``` is the same value found on the input csv files.
 
-## Usage
+## Notes ##
+When launching the command  ```ros2 launch bring_up bring_up_launch.py``` the services managing the robot are executed, to work the robot must be connected to the host.\
 
-Information about how to use Oscar-GUI can be found in [User & Programmers Manual](docs/usermanual.md).
-
-
-## License
+### License
 
 [Apache2.0](LICENSE) © 2022
