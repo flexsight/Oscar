@@ -1,2 +1,2 @@
 entities_address: http://localhost:1026/v2/entities/
-data_path: Data
+data_path: ../Data

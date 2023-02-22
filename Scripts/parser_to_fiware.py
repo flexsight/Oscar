@@ -91,7 +91,7 @@ def post_empty_entities(address):
     return requests.post(address, data=payload, headers=headers)
 
 if __name__ == '__main__':
-  with open('config.yml') as f:
+  with open('../Config/config.yml') as f:
        data = yaml.load(f, Loader=yaml.FullLoader)
      
   main_topic_list = ['Component', 'Step', 'Macrostep', 'UseCase']

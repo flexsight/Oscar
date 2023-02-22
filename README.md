@@ -80,6 +80,7 @@ ros2 launch bring_up bring_up_launch.py
 ### Load data ###
 To load data on Fiware execute the command:
 ```
+cd Scripts
 python parser_to_fiware.py
 ```
 the script file must be on the same folder of config.yml file to work
