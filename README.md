@@ -64,7 +64,7 @@ To run the container execute the command
 ```
 docker run --ipc=host  -it  phm14/oscar
 ```
-Make sure that in the file ```config.yaml``` inside the folder ```src/oscar_core``` the entities address field ```entities_address: http://IP_ADDRESS:PORT_NUMBER/v2/entities/``` is correct:
+Make sure that in the file ```config.yaml``` inside the folder ```src/oscar_core``` the entities address field ```entities_address: http://IP_ADDRESS:PORT_NUMBER/v2/entities/``` is correct (for example if running on Linux on localhost use the address 172.17.0.1):
 ```
 nano src/oscar_core/config.yml
 ```
