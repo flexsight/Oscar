@@ -49,6 +49,17 @@ entities ```Step```.
   be of type ```None```, while the relationship attributes must be of type ```Relationship```
 
 ## Instructions ##
+Only the first time execute the command:
+```
+docker network create fiware_default
+```
+then run the containers for mongo and orion:
+```
+docker run -d --name=mongo-db --network=fiware_default   --expose=27017 mongo:4.2 --bind_ip_all
+docker run -d --name fiware-orion -h orion --network=fiware_default   -p 1026:1026  fiware/orion -dbhost mongo-db
+```
+
+
 To run the container execute the command
 ```
 docker run --ipc=host  -it  phm14/oscar
@@ -63,15 +74,6 @@ Inside the container run the following:
 ```
 source install/setup.bash
 ros2 launch bring_up bring_up_launch.py
-```
-Only the first time execute the command:
-```
-docker network create fiware_default
-```
-then run the containers for mongo and orion:
-```
-docker run -d --name=mongo-db --network=fiware_default   --expose=27017 mongo:4.2 --bind_ip_all
-docker run -d --name fiware-orion -h orion --network=fiware_default   -p 1026:1026  fiware/orion -dbhost mongo-db
 ```
 ### Load data ###
 To load data on Fiware execute the command:
