@@ -2,7 +2,7 @@
 
 
 This project is part of [DIH^2](http://www.dih-squared.eu/). For more information check the RAMP Catalogue entry for the
-[components](https://github.com/xxx).
+[components](https://ramp.eu/).
 
 | :books: [Documentation](Docs/Oscar_Documentation.pdf) | :whale: [Docker Hub](https://hub.docker.com/r/phm14/oscar) |
 | --------------------------------------------- | ------------------------------------------------------------- |
@@ -111,4 +111,4 @@ When launching the command  ```ros2 launch bring_up bring_up_launch.py``` the se
 
 ### License
 
-[License.txt](OSCAR) © 2023
+[License](License.txt) © 2023
