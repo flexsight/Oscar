@@ -50,7 +50,7 @@ entities ```Step```.
   be of type ```None```, while the relationship attributes must be of type ```Relationship```
 
 ## Instructions ##
-To access to the video tutorial showing all following steps please follow this [link](https://drive.google.com/file/d/1PPhMm6X98VKM4ZEbmAg3oxucDTNU2Tfz/view?usp=sharing).
+To access the video tutorial showing all following steps please follow this [link](https://drive.google.com/file/d/1PPhMm6X98VKM4ZEbmAg3oxucDTNU2Tfz/view?usp=sharing).
 
 Only the first time execute the command:
 ```
