@@ -50,6 +50,7 @@ entities ```Step```.
   be of type ```None```, while the relationship attributes must be of type ```Relationship```
 
 ## Instructions ##
+To access to the video tutorial showing all following steps please follow this [link](https://drive.google.com/file/d/1PPhMm6X98VKM4ZEbmAg3oxucDTNU2Tfz/view?usp=sharing)
 Only the first time execute the command:
 ```
 docker network create fiware_default
@@ -108,6 +109,7 @@ depending on the entity and ```ID``` is the same value found on the input csv fi
 
 ## Notes ##
 When launching the command  ```ros2 launch bring_up bring_up_launch.py``` the services managing the robot are executed, to work the robot must be connected to the host.\
+An example of data gathered during a run of the application can be accessed on the following [link](https://drive.google.com/drive/folders/138NbojAz5dhPBl3P57pStogXnEaKgoGy?usp=sharing)
 
 ### License
 
