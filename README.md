@@ -4,8 +4,8 @@
 This project is part of [DIH^2](http://www.dih-squared.eu/). For more information check the RAMP Catalogue entry for the
 [components](https://ramp.eu/).
 
-| :books: [Documentation](Docs/Oscar_Documentation.pdf) | :whale: [Docker Hub](https://hub.docker.com/r/phm14/oscar) |
-| --------------------------------------------- | ------------------------------------------------------------- |
+| :books: [Documentation](Docs/Oscar_Documentation.pdf) | :whale: [Docker Hub](https://hub.docker.com/r/phm14/oscar) | :movie_camera: [Video Tutorial](https://drive.google.com/file/d/1PPhMm6X98VKM4ZEbmAg3oxucDTNU2Tfz/view?usp=sharing) | :floppy_disk: [OSCAR Dataset](https://drive.google.com/drive/folders/138NbojAz5dhPBl3P57pStogXnEaKgoGy?usp=sharing) |
+| --------------------------------------------- | ------------------------------------------------------------- | ------------------------------------------------------------- | ------------------------------------------------------------- |
 
 
 
